@@ -1,0 +1,33 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainBody {
+    display: flex;
+    
+}
+
+.sideBar {
+    flex-direction: row;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+img {
+    width: 12rem;
+    align-content: center;
+    margin: 0em;
+}
+
+#sideContent {
+    border: none;
+    margin: 10px;
+}
+
+.mainContent {
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 0px;
+}
