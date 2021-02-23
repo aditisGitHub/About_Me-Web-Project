@@ -1,10 +1,19 @@
-header {
+h1 {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+}
+
+.myReview {
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    margin: 15px;
 }
 
 #mainBody {
     display: flex;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .sideBar {
@@ -15,10 +24,15 @@ header {
     
 }
 
+#myImg {
+    margin: 10px;
+    display: flex;
+}
+
 img {
     width: 12rem;
-    align-content: center;
-    margin: 0em;
+    align-items: center;
+    margin: auto;
 }
 
 #sideContent {
@@ -30,4 +44,35 @@ img {
     flex-direction: row;
     margin: 20px;
     margin-top: 0px;
+}
+
+table, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.sideElements {
+    margin: 5px;
+    border-top: 0.5px solid green;
+    margin-bottom: 15px;
+}
+
+h3 {
+    border-bottom: 0.8px solid black;
+}
+
+.sub h5 {
+    border-left: 2px solid black;
+    padding-left: 5px;
+}
+
+.sub .myReview {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
